@@ -21,12 +21,12 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
 
   ### Image Augmentation and Regularization Technique
 
-  Cut-out
+  ***Cut-out***
 
   <p>Main : https://paperswithcode.com/method/cutout </p>
   <p>Tutorial : https://github.com/uoguelph-mlrg/Cutout </p>
 
-  Discriminative Learning Rates
+  ***Discriminative Learning Rates***
 
   Link : https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/lr_scheduling/
  
