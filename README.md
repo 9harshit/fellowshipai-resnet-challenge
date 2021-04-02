@@ -33,6 +33,8 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
 
 ## Model Description 
 
+  - ResNet18 is shallow enough that it does'nt have any issue durnig training, but is deep enoguh to learn complex features.
+  - ResNet model have architecture that allows the network to skip training for the layers that are not useful and do not add value in overall accuracy
   - Resnet18 model pretrained on Imagenet dataset.
   - Frozen pretrained layers.
   - Training of model only occurs in custom layer.
