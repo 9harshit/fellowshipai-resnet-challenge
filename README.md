@@ -40,7 +40,7 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
 
 ## Code
   
-  Code Explanation present in notebook 
+  Code Explanation present in notebook and .py files
   
   - After downloadling dataset run dataset_handling file to place images in folders based on their class and folder type (Image used in training and of class 1 will      placed in train/1 folder)
   - To run the model with Cutout use resnet18_cutout.ipynb file
@@ -100,5 +100,5 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
   ### Obeservations
   
   - Though cutout method theretical and practically does force the model to learn different features of the data and not just the main features, hgiher accuracy of base model proves that giving information rich data to model will always provide better results. 
-  - Discriminative learning rates is should not used in initial part of trainig since at later stages of the training learning rate is reduced dramatically and due to which model doesnto learn in later epochs. However the DLR should be programmed to activated after 60-70% of the training is completed to avoid overfitting but still allwoing the model to keep and learning and discover new features special in transfer learning.
+  - Discriminative learning rates  should not used in initial part of trainig since at later stages of the training learning rate is reduced dramatically and due to which model does not learn in later epochs. However the DLR should be programmed to activated after 60-70% of the training is completed to avoid overfitting but still allwoing the model to keep and learning and discover new features special in transfer learning.
 
