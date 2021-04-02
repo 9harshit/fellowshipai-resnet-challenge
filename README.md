@@ -42,7 +42,7 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
   
   Code Explanation present in notebook and .py files
   
-  - After downloadling dataset run dataset_handling file to place images in folders based on their class and folder type (Image used in training and of class 1 will      placed in train/1 folder)
+  - After downloadling dataset run dataset_handling.py file to place images in folders based on their class and folder type (Image used in training and of class 1 will      placed in train/1 folder)
   - To run the model with Cutout use resnet18_cutout.ipynb file
   - To run the mode without Cutout use resnet18.ipynb file
 
