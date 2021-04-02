@@ -15,7 +15,7 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
 
   ### Dataset
   
-   ***ResNet18***
+   ***Flower Dataset***
 
    Link :	http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
@@ -32,16 +32,28 @@ Use a pretrained ResNet 18 and train on the Flowers dataset. Use cut-out and dis
 
 ## Code
   
-
+  Code Explanation present in notebook 
+  
   - To run the model with Cutout use resnet18_cutout.ipynb file
   - To run the mode without Cutout use resnet18.ipynb file
 
+## Results
 
-![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_basic.png)
+  ### Base Model
+  
+  
+  
+ ![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_basic.png)
+  
+  ### Model with Discriminative Learning Rates
 
-![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_dlr.png)
+ ![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_dlr.png)
+  
+   ### Model with Cut-out
 
-![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_cutout.jpg)
+  ![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_cutout.jpg)
+  
+  ### Model with Cut-out and Discriminative Learning Rates
 
-![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_cutout_dlr.png)
+  ![Screenshot](https://github.com/9harshit/fellowshipai-resnet-challenge/blob/main/images/model_cutout_dlr.png)
 
